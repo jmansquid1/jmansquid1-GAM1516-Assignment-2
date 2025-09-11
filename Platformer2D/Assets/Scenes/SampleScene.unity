@@ -6216,6 +6216,8 @@ GameObject:
   - component: {fileID: 1267319378}
   - component: {fileID: 1267319382}
   - component: {fileID: 1267319383}
+  - component: {fileID: 1267319385}
+  - component: {fileID: 1267319384}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -6398,6 +6400,70 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: fb03d2ec-1dcd-4eee-ab9e-35940bab793e
     m_ActionName: 'Player/Move[/Keyboard/rightArrow,/Keyboard/d,/Keyboard/leftArrow,/Keyboard/a]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1267319383}
+        m_TargetAssemblyTypeName: MarioController, Assembly-CSharp
+        m_MethodName: OnRun
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c2bc2b33-1e9f-4886-ac21-99b9fc52a6fe
+    m_ActionName: 'Player/Run[/Keyboard/shift]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1267319383}
+        m_TargetAssemblyTypeName: MarioController, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 24b7ae1e-2eb9-4eac-bef9-a8ac9e112667
+    m_ActionName: 'Player/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1267319383}
+        m_TargetAssemblyTypeName: MarioController, Assembly-CSharp
+        m_MethodName: OnDuck
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dd2cc5ad-ddef-4d49-8f52-cfe8c34bdabf
+    m_ActionName: 'Player/Duck[/Keyboard/s,/Keyboard/downArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1267319383}
+        m_TargetAssemblyTypeName: MarioController, Assembly-CSharp
+        m_MethodName: OnUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a879b3bc-70e9-4a2f-b262-a19cdfc77e08
+    m_ActionName: 'Player/Up[/Keyboard/w,/Keyboard/upArrow]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -6413,6 +6479,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd352aa9928514c4ba98632249630050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1267319384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267319377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e5adafbfe5a5143b0fb03803216c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1267319385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267319377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8953402958cf1ff48ae741915c3745ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1362220124
