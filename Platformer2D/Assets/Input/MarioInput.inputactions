@@ -1,0 +1,67 @@
+{
+    "name": "MarioInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c6a67b9f-b8dd-4580-b543-9bcdd34738d9",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "fb03d2ec-1dcd-4eee-ab9e-35940bab793e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0f9ed42-1a0c-4ab4-98a8-27c25ad276c3",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d039ed8-e77d-4769-8621-58f4de5a8ba3",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1737f973-59ff-4494-a1bc-41467ec060b4",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "775914b9-5151-46ff-a0a0-2bda23bca8aa",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
